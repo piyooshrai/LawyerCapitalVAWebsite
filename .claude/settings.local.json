@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git config:*)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(ls:*)"
     ]
   }
 }
