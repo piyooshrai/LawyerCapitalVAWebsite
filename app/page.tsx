@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import Link from 'next/link';
 import { services, pricing } from '@/lib/legal-data';
 
 export default function Home() {
