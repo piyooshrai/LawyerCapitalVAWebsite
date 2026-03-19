@@ -136,7 +136,7 @@ export default function Home() {
 
           {/* Practice cards grid */}
           <div className="grid grid-cols-2 gap-px bg-black/6">
-            {services.map((service, idx) => (
+            {services.map((service) => (
               <div
                 key={service.id}
                 ref={addRevealRef}
