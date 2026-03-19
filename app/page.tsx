@@ -362,7 +362,6 @@ export default function Home() {
           </p>
 
           <a
-            ref={addRevealRef}
             href="/contact"
             className="reveal inline-block px-10 py-4 bg-brass text-white text-xs font-600 tracking-wider uppercase hover:bg-brass-light transition-all duration-300"
           >
