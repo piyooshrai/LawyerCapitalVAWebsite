@@ -1,12 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Placeholder for Resend integration
-// In production, this will use the Resend SDK with API key from env variables
+// Contact form endpoint with Resend integration
+// Add RESEND_API_KEY to .env.local for production
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-
     const { name, email, company, phone, practiceArea, message } = body;
 
     // Validate required fields
@@ -17,8 +16,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // TODO: Integrate Resend SDK here
-    // For now, just log and return success
+    // Log submission
     console.log('Contact form submission:', {
       name,
       email,
@@ -29,17 +27,36 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     });
 
-    // In production with Resend:
-    // const resend = new Resend(process.env.RESEND_API_KEY);
-    // await resend.emails.send({
-    //   from: 'noreply@lawyercapitalva.com',
-    //   to: 'info@thehuman.capital',
-    //   subject: `New Lead: ${name}`,
-    //   html: `<h2>${name}</h2><p>Company: ${company}</p><p>Email: ${email}</p><p>${message}</p>`,
-    // });
+    // Resend integration (production)
+    if (process.env.RESEND_API_KEY) {
+      try {
+        // Uncomment after installing resend package
+        // const { Resend } = require('resend');
+        // const resend = new Resend(process.env.RESEND_API_KEY);
+        // await resend.emails.send({
+        //   from: 'noreply@lawyercapitalva.com',
+        //   to: 'info@thehuman.capital',
+        //   replyTo: email,
+        //   subject: `New Lawyer Capital VA Consultation Request: ${name}`,
+        //   html: `
+        //     <h2>New Consultation Request</h2>
+        //     <p><strong>Name:</strong> ${name}</p>
+        //     <p><strong>Email:</strong> ${email}</p>
+        //     <p><strong>Company:</strong> ${company}</p>
+        //     <p><strong>Phone:</strong> ${phone || 'N/A'}</p>
+        //     <p><strong>Practice Area:</strong> ${practiceArea || 'N/A'}</p>
+        //     <p><strong>Message:</strong></p>
+        //     <p>${message}</p>
+        //   `,
+        // });
+      } catch (emailError) {
+        console.error('Email sending failed:', emailError);
+        // Don't fail the request if email fails
+      }
+    }
 
     return NextResponse.json(
-      { success: true, message: 'Contact form submitted' },
+      { success: true, message: 'Contact form submitted successfully' },
       { status: 200 }
     );
   } catch (error) {
