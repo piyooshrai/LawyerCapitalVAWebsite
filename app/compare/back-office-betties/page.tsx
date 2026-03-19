@@ -1,0 +1,8 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = { title: 'Back Office Betties vs Lawyer Capital VA', description: 'Legal receptionist vs dedicated legal virtual assistant comparison.' };
+
+export default function BackOfficeBettiesPage() {
+  return <main className="pt-32 bg-ivory min-h-screen"><article className="max-w-4xl mx-auto px-16 py-20"><h1 className="font-serif text-5xl text-charcoal mb-8">Back Office Betties vs Lawyer Capital VA</h1><p className="text-lg text-text-mid font-300 mb-12">Back Office Betties: legal receptionist. Lawyer Capital VA: dedicated operational partner handling intake, documents, cases, and billing.</p><section className="mb-16"><h2 className="font-serif text-2xl text-charcoal mb-6">The Core Difference</h2><p className="text-base text-text-mid font-300 mb-4">Back Office Betties answers phones and handles intake. That's valuable. But it's a single function.</p><p className="text-base text-text-mid font-300">We handle everything: intake, documents, case management, billing, compliance. One dedicated person. Same person every day. They become experts in your practice.</p></section><section className="mb-16"><h2 className="font-serif text-2xl text-charcoal mb-6">Pricing Unpredictability</h2><p className="text-base text-text-mid font-300">Back Office Betties uses per-minute pricing. If calls spike, costs spike. We use flat-rate monthly: $700–$1,300. Predictable. No surprises.</p></section><Link href="/contact" className="inline-block px-8 py-3 bg-brass text-white text-xs font-600 tracking-wider uppercase hover:bg-brass-light transition-all">Schedule Consultation</Link></article></main>;
+}
