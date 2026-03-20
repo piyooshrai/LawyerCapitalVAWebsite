@@ -12,91 +12,149 @@ export default function CivilLitigationPage() {
     <main className="pt-32 bg-ivory min-h-screen">
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
-          Virtual Assistant Support for Civil Litigation
+          Civil Litigation is Now a Battle of Evidence Management
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          Civil litigation is document-intensive, deadline-driven, and relationship-intensive. Discovery management alone consumes 30-40% of case time. Our litigation VAs handle discovery coordination, motion prep, evidence management, and trial organization so you focus on strategy and courtroom presence.
+          <strong>The real problem:</strong> A single case now involves thousands of hours of video, digital images, email chains, and multimedia documents. Manual review is no longer viable. Your case file isn't won in the courtroom—it's won in the discovery phase, where the attorney with the best-organized evidence wins.
         </p>
 
-        <section className="mb-16 py-12 bg-white px-8 rounded-sm border-l-4 border-brass">
-          <h2 className="font-serif text-3xl text-charcoal mb-6">The Civil Litigation Practice Needs</h2>
+        {/* THE MULTIMEDIA EVIDENCE PROBLEM */}
+        <section className="mb-16 py-12 bg-charcoal/5 px-8 rounded-sm border-l-4 border-brass">
+          <h2 className="font-serif text-3xl text-charcoal mb-6">The Multimedia Evidence Crisis</h2>
           <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Civil litigation isn't just about being the best legal strategist. It's about managing hundreds of documents, tracking discovery deadlines, organizing exhibits, and ensuring nothing is overlooked. A single missing document in a 500-page production can sink a case.
+            <strong>One case. Thousands of hours of video.</strong> Defendants in your cases are providing discovery in formats that didn't exist five years ago: Ring doorbell footage, surveillance video from multiple cameras, digital communications across WhatsApp, Signal, iMessage. A single incident may produce 50+ hours of video that needs review, redaction, and analysis.
           </p>
           <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            The attorneys who win aren't the smartest. They're the ones with the best-organized cases. A litigation VA is the difference between knowing your case file and being buried in it.
+            <strong>Manual review is dead.</strong> According to <a href="https://www.americanbar.org/groups/litigation/resources/litigation-news/2026/winter/50-year-progress-how-ai-is-elevating-litigation/" className="text-brass font-500 hover:underline">ABA litigation research (2026)</a>, the explosion in multimedia evidence has forced firms to rethink discovery entirely. Attorneys can no longer personally review all evidence. Something has to triage, organize, and flag what matters.
           </p>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">What Litigation VAs Handle</h2>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Discovery Management & Coordination</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Your VA maintains a discovery schedule. When do you serve interrogatories? When are responses due? When do you request production? When do you receive documents? Your VA tracks all of it. They prepare discovery requests based on your templates and instructions, serve them on opposing counsel, track responses, and flag missing or inadequate responses. They organize received documents into a searchable database. They track privilege logs. They flag potentially problematic documents for your review.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Pleading & Motion Preparation</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            You draft the legal argument. Your VA prepares the pleading structure, compiles the exhibits, checks formatting compliance, and organizes the motion binder. For a motion to dismiss, they pull the complaint, the motion standard, and the applicable case law you'll cite. For a summary judgment motion, they organize all undisputed facts, compile the evidence, and prepare the statement of facts.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Evidence Management & Trial Preparation</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            As trial approaches, your VA organizes all evidence: testimony summaries, exhibit lists, document binders, witness chronologies. They prepare a trial index (every piece of evidence catalogued and cross-referenced). They prepare witness prep materials (deposition summaries, prior testimony, inconsistencies). They prepare jury trial materials (jury instructions, jury questions, verdict forms). By trial, your case is ready.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Deposition Coordination & Summaries</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            A deposition is scheduled. Your VA coordinates logistics: location, time, reporter, transcript order. They prepare your deposition outline, organize key documents for questioning, and prepare a topics list to ensure nothing is missed. After the deposition, they order the transcript, review it for key testimony, prepare a summary, and flag inconsistencies with prior statements.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Timeline & Chronology Management</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Civil cases turn on chronology. Your VA creates detailed case timelines: when events occurred, when notice was given, when contracts were signed, when breaches happened. They create visual timelines for jury presentations. They organize all documents by date so you can quickly review the sequence of events.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Exhibit Organization & Management</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            A case with 1,000 exhibits is useless if you can't find exhibit 437 during trial. Your VA organizes all exhibits, labels them, creates an exhibit index, and prepares multiple copies (one set for your use, one for opposing counsel, one for the court). They create exhibit binders organized by issue or chronology. They prepare exhibit lists for motions and trial.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Legal Research Organization</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            You research case law. Your VA organizes your research: key cases, statutory provisions, restatements, treatises. They create a research library organized by legal issue. They prepare summaries of key cases (holding, facts, application to your case) that you can reference quickly. They track which cases are still good law and which have been overruled.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Settlement & Alternative Dispute Resolution Prep</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Mediation is scheduled. Your VA prepares a settlement position statement, gathers supporting documents and evidence, calculates settlement authority (best case value, worst case exposure, settlement range), and prepares a persuasive brief for the mediator. For arbitration, they organize the entire case file in the order you'll present it.
+          <p className="text-base text-text-mid leading-relaxed font-300">
+            <strong>Your alternative:</strong> A dedicated litigation VA who specializes in organizing this chaos. They're not doing the legal analysis (that's you). They're doing the triage that makes your analysis possible.
           </p>
         </section>
 
+        {/* THE REAL PAIN POINTS */}
         <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">Civil Litigation Practice Areas We Support</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {['Contract Disputes', 'Employment Litigation', 'Personal Injury', 'Commercial Disputes', 'Construction Defect', 'Professional Malpractice', 'Shareholder Disputes', 'Intellectual Property Disputes'].map((area) => (
-              <div key={area} className="p-4 border border-text-light/10 bg-white">
-                <p className="font-500 text-charcoal">{area}</p>
-              </div>
-            ))}
+          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">The Real Pain Points Litigators Face</h2>
+
+          <div className="space-y-8">
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">1. Discovery Management Eats 30-40% of Your Time</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                You're not in court. You're managing discovery requests, organizing responses, tracking what's been produced and what hasn't, flagging privilege issues, and building a searchable database of thousands of documents. This isn't legal work. It's administrative work that feels like it takes forever because you have to context-switch from legal thinking to file management constantly.
+              </p>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+                <strong>Your VA handles:</strong> Creating discovery schedules, organizing received documents, flagging privilege issues, maintaining a searchable database, tracking what's outstanding, coordinating with opposing counsel on responses.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">2. Vendor Management Complexity (54% of Firms Report This as a Top Challenge)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                According to <a href="https://www.rev.com/blog/legal-technology-trends" className="text-brass font-500 hover:underline">2026 legal tech research</a>, 54% of litigation firms identified vendor management as their top administrative challenge. You're juggling court reporters, document retrieval services, trial support vendors, expert witnesses, and IT specialists. Each vendor has different processes, different invoicing, different communication protocols.
+              </p>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+                <strong>Your VA handles:</strong> Maintaining vendor contact lists, coordinating scheduling, managing invoices, tracking services rendered, ensuring you have reliable rosters of trusted vendors.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">3. Motion Practice Consumes 20-30% of Billable Hours (But You Only Bill Half of It)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                You write motions. But before you write, you hunt for your motion template. You compile the exhibit list. You organize prior case law. You create a motion binder. You check formatting against local rules (which vary by court and judge). You prepare a reply brief in case the other side responds. This is 5-10 hours of non-billable work for every motion you file.
+              </p>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+                <strong>Your VA handles:</strong> Pulling motion templates, organizing exhibits, compiling case law, checking local rule compliance, preparing motion binders, creating visual timelines for summary judgment motions.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">4. Deposition Logistics Are Tedious but Critical</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                Scheduling a deposition sounds simple. It's not. You're coordinating location, time, court reporter, video recording, opposing counsel availability, your client's availability, and expert witness availability. Then you have to prepare deposition outlines, organize key documents for questioning, and track what testimony you need to lock down.
+              </p>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+                <strong>Your VA handles:</strong> Coordinating schedules, ordering court reporters, organizing deposition materials, preparing witness outlines, tracking key testimony, ordering transcripts.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">5. AI Adoption is Growing (26% of Firms, Up from 13%)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                <a href="https://www.rev.com/blog/legal-technology-trends" className="text-brass font-500 hover:underline">AI usage in litigation doubled year-over-year (2025-2026)</a>. But using AI effectively requires someone who understands how to prompt it, organize its output, and validate its results. Your VA can integrate AI tools into your workflow, managing the triage so you review only what matters.
+              </p>
+            </div>
           </div>
         </section>
 
-        <section className="my-16 p-8 bg-charcoal text-white rounded-sm">
-          <h2 className="font-serif text-2xl mb-4">The Organized Case Wins</h2>
-          <p className="text-base text-white/70 leading-relaxed">
-            In civil litigation, victory often goes to the side with the best organization, not the best legal argument. Your VA ensures that every document is catalogued, every deadline is tracked, and every fact is available on demand. You focus on strategy and persuasion. We handle the organization.
-          </p>
+        {/* COMMON FAQs */}
+        <section className="mb-16">
+          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">FAQs: Civil Litigation Practice</h2>
+
+          <div className="space-y-6">
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                How does a litigation VA organize discovery when documents are in different formats?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Your VA creates a unified database regardless of source format. Documents from opposing counsel, emails, images, video—everything gets catalogued with consistent naming, date, party, and issue tags. This is tedious work, but once organized, you can search "Q3 communications between Johnson and Smith about the contract" and have everything in 10 seconds instead of 3 days hunting through folders.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                Can a VA check local court rules for compliance?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Yes. Your VA maintains a local rules library for each court you practice in, plus judge-specific rules for judges you appear before. Before your motion goes to court, your VA checks every page: margins, font, spacing, caption format, page numbering, signature block. They catch formatting errors before they become filing rejections.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                How much time does a litigation VA actually save?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Discovery management alone typically consumes 30-40% of litigation time. Add motion preparation, deposition logistics, and trial prep, and you're looking at 40-50% of your week spent on non-billable administrative work. A dedicated litigation VA reduces this to 10-15% of your week, freeing 25-40 billable hours per week. At $300/hour billing rate, that's $7,500-12,000/week of recovered capacity.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                What if we use e-discovery software?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                E-discovery software is a tool, not a VA. Software organizes documents. A VA decides what matters, flags inconsistencies, identifies smoking guns, and prepares your case summary. Software + VA = you focus on strategy, not mechanics.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                Can a VA prepare witness summaries from depositions?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Absolutely. Your VA receives the deposition transcript, reads it, prepares a summary highlighting key testimony, flags contradictions with prior statements, and organizes witness statements by issue. Instead of you reading 80 pages of testimony, you review a 3-page summary with flagged items.
+              </p>
+            </details>
+          </div>
         </section>
 
-        <section className="text-center">
+        {/* CTA */}
+        <section className="my-16 p-8 bg-charcoal text-white rounded-sm">
+          <h2 className="font-serif text-2xl mb-4">The Litigator with the Best-Organized Case Wins</h2>
+          <p className="text-base text-white/70 leading-relaxed mb-6 font-300">
+            Legal skill is necessary. Case organization is what separates winners from everyone else. Your VA ensures every document is catalogued, every deadline is tracked, every exhibit is indexed, and every motion is compliance-checked. You focus on legal strategy and courtroom presence. We handle the organization.
+          </p>
           <Link
             href="/contact"
             className="inline-block px-8 py-3 bg-brass text-white text-xs font-600 tracking-wider uppercase hover:bg-brass-light transition-all duration-300"
           >
-            Get Civil Litigation Support
+            Get Litigation Support
           </Link>
         </section>
       </article>
