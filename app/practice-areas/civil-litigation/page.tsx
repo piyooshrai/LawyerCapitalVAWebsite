@@ -87,6 +87,45 @@ export default function CivilLitigationPage() {
           </div>
         </section>
 
+        {/* ROI SECTION - VISIBLE NUMBERS */}
+        <section className="mb-16 p-10 bg-brass/15 border-2 border-brass rounded-sm">
+          <h2 className="font-serif text-3xl text-charcoal mb-8">The Financial Reality: What Your Time is Actually Worth</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">40-50%</div>
+              <p className="text-sm text-charcoal font-500">of your week on non-billable admin</p>
+              <p className="text-xs text-text-mid mt-2">(discovery, motions, depositions, trial prep)</p>
+            </div>
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">25-40 hrs/week</div>
+              <p className="text-sm text-charcoal font-500">recovered billing capacity</p>
+              <p className="text-xs text-text-mid mt-2">(with a dedicated litigation VA)</p>
+            </div>
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">$7,500-12,000</div>
+              <p className="text-sm text-charcoal font-500">per week in recovered revenue</p>
+              <p className="text-xs text-text-mid mt-2">(at $300/hr billing rate)</p>
+            </div>
+          </div>
+
+          <div className="bg-white p-6 rounded-sm border-l-4 border-brass">
+            <h3 className="font-600 text-charcoal mb-3">Annual Impact (Solo/Small Firm)</h3>
+            <p className="text-base text-text-mid leading-relaxed font-300">
+              <strong>Current state:</strong> 40-50% of your time on administrative work = ~$390,000-$624,000/year in lost billable capacity (based on 2,000 annual billable hours at $300/hr).
+            </p>
+            <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+              <strong>With a litigation VA:</strong> Reduces to 10-15% of your time = recover 25-40 hours/week = <strong>$390,000-$624,000/year in recovered billable capacity</strong>.
+            </p>
+            <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+              <strong>VA cost:</strong> $2,500-3,500/month = $30,000-42,000/year.
+            </p>
+            <p className="font-600 text-charcoal mt-4">
+              <strong>Net gain: $348,000-582,000/year in first year alone.</strong>
+            </p>
+          </div>
+        </section>
+
         {/* COMMON FAQs */}
         <section className="mb-16">
           <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">FAQs: Civil Litigation Practice</h2>
