@@ -9,27 +9,12 @@ export const metadata: Metadata = {
 };
 
 export default function LocationsPage() {
-  const locations = [
+  const regions = [
     {
-      city: 'Richmond',
-      state: 'Virginia',
-      href: '/locations/virginia/richmond',
-      description: 'Virginia capital market. Immigration, family law, litigation, corporate.',
-      attorneys: '3,000+',
-    },
-    {
-      city: 'Arlington',
-      state: 'Virginia',
-      href: '/locations/virginia/arlington',
-      description: 'Premium market. Immigration, corporate, litigation, IP, real estate.',
-      attorneys: '1,500+',
-    },
-    {
-      city: 'Virginia Beach',
-      state: 'Virginia',
-      href: '/locations/virginia/virginia-beach',
-      description: 'Hampton Roads & military market. Immigration, family law, criminal defense.',
-      attorneys: '1,800+',
+      region: 'United States',
+      href: '/locations/usa',
+      description: 'All states and service areas',
+      subtext: 'Virginia and expanding',
     },
   ];
 
@@ -47,25 +32,25 @@ export default function LocationsPage() {
         </p>
 
         <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-12">Virginia Service Areas</h2>
+          <h2 className="font-serif text-3xl text-charcoal mb-12">Service Regions</h2>
 
           <div className="grid grid-cols-1 gap-8">
-            {locations.map((location) => (
+            {regions.map((item) => (
               <Link
-                key={location.city}
-                href={location.href}
+                key={item.region}
+                href={item.href}
                 className="border-2 border-brass/30 rounded-sm p-8 hover:border-brass hover:bg-white/50 transition-all duration-300 group"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <h3 className="font-serif text-2xl text-charcoal mb-1">
-                      {location.city}, {location.state}
+                      {item.region}
                     </h3>
-                    <p className="text-sm text-brass font-600">{location.attorneys} attorneys</p>
+                    <p className="text-sm text-brass font-600">{item.subtext}</p>
                   </div>
                   <div className="text-brass text-2xl group-hover:translate-x-2 transition-transform">→</div>
                 </div>
-                <p className="text-base text-text-mid font-300">{location.description}</p>
+                <p className="text-base text-text-mid font-300">{item.description}</p>
               </Link>
             ))}
           </div>
