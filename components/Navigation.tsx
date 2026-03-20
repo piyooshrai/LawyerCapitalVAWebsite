@@ -60,8 +60,27 @@ export default function Navigation() {
             Blog
           </Link>
 
+          {/* Confidentiality Dropdown */}
+          <div className="relative group">
+            <button className="text-sm font-500 text-ivory/80 hover:text-brass transition-colors duration-200 flex items-center gap-2">
+              Confidentiality
+              <svg className="w-4 h-4 group-hover:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </button>
+            <div className="absolute left-0 mt-0 w-56 bg-charcoal border border-brass/20 shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 py-2">
+              <Link href="/confidentiality/attorney-client-privilege" className="block px-6 py-3 text-ivory/70 hover:text-brass hover:bg-brass/5 transition-colors text-sm">Attorney-Client Privilege</Link>
+              <Link href="/confidentiality/vetting-process" className="block px-6 py-3 text-ivory/70 hover:text-brass hover:bg-brass/5 transition-colors text-sm">Vetting Process</Link>
+              <Link href="/confidentiality/data-security" className="block px-6 py-3 text-ivory/70 hover:text-brass hover:bg-brass/5 transition-colors text-sm">Data Security</Link>
+            </div>
+          </div>
+
           <Link href="/locations" className="text-sm font-500 text-ivory/80 hover:text-brass transition-colors duration-200">
             Locations
+          </Link>
+
+          <Link href="/pricing" className="text-sm font-500 text-ivory/80 hover:text-brass transition-colors duration-200">
+            Pricing
           </Link>
         </div>
         <Link

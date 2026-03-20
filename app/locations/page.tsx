@@ -9,27 +9,30 @@ export const metadata: Metadata = {
 };
 
 export default function LocationsPage() {
-  const locations = [
+  const regions = [
     {
-      city: 'Richmond',
-      state: 'Virginia',
-      href: '/locations/virginia/richmond',
-      description: 'Virginia capital market. Immigration, family law, litigation, corporate.',
-      attorneys: '3,000+',
+      region: 'United States',
+      href: '/locations/usa',
+      description: '12 cities across the US with dedicated legal VA support',
+      subtext: 'Nationwide coverage',
     },
     {
-      city: 'Arlington',
-      state: 'Virginia',
-      href: '/locations/virginia/arlington',
-      description: 'Premium market. Immigration, corporate, litigation, IP, real estate.',
-      attorneys: '1,500+',
+      region: 'United Kingdom',
+      href: '/locations/uk',
+      description: 'SRA-compliant VA support for UK solicitors and barristers',
+      subtext: '5 cities including London and Edinburgh',
     },
     {
-      city: 'Virginia Beach',
-      state: 'Virginia',
-      href: '/locations/virginia/virginia-beach',
-      description: 'Hampton Roads & military market. Immigration, family law, criminal defense.',
-      attorneys: '1,800+',
+      region: 'Middle East',
+      href: '/locations/middle-east',
+      description: 'DIFC and jurisdiction-specific legal VA support',
+      subtext: 'Dubai, Abu Dhabi, Riyadh, Doha',
+    },
+    {
+      region: 'Asia Pacific',
+      href: '/locations/apac',
+      description: 'Law Society-compliant VA support for APAC firms',
+      subtext: 'Sydney, Melbourne, Auckland, and more',
     },
   ];
 
@@ -37,35 +40,35 @@ export default function LocationsPage() {
     <main className="bg-ivory min-h-screen">
       <PageHeader
         label="Service Locations"
-        title="Legal VA Services by Location"
-        subtitle="Find specialized virtual assistant support for your local market. Market-specific experience. Local billing rate understanding. Regional expertise."
+        title="Legal VA Services Worldwide"
+        subtitle="Find specialized virtual assistant support for your local market. Market-specific expertise. Local billing rate understanding. Regional compliance."
       />
 
       <article className="max-w-5xl mx-auto px-16 py-20">
         <p className="text-lg text-text-mid font-300 mb-16 border-l-4 border-brass pl-8 pb-8 border-b border-brass/20">
-          Each legal market has different pain points, billing rates, and practice area opportunities. We understand Virginia's markets intimately—from Richmond's competitive general practice to Arlington's premium corporate work to Virginia Beach's military and immigration focus.
+          Each legal market has different pain points, billing rates, regulatory frameworks, and practice area opportunities. We understand local legal markets intimately—from US market dynamics to UK SRA compliance to Middle East jurisdiction requirements to APAC Law Society standards. Your VA is trained on your market's specifics.
         </p>
 
         <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-12">Virginia Service Areas</h2>
+          <h2 className="font-serif text-3xl text-charcoal mb-12">Service Regions</h2>
 
           <div className="grid grid-cols-1 gap-8">
-            {locations.map((location) => (
+            {regions.map((item) => (
               <Link
-                key={location.city}
-                href={location.href}
+                key={item.region}
+                href={item.href}
                 className="border-2 border-brass/30 rounded-sm p-8 hover:border-brass hover:bg-white/50 transition-all duration-300 group"
               >
                 <div className="flex items-start justify-between mb-4">
                   <div>
                     <h3 className="font-serif text-2xl text-charcoal mb-1">
-                      {location.city}, {location.state}
+                      {item.region}
                     </h3>
-                    <p className="text-sm text-brass font-600">{location.attorneys} attorneys</p>
+                    <p className="text-sm text-brass font-600">{item.subtext}</p>
                   </div>
                   <div className="text-brass text-2xl group-hover:translate-x-2 transition-transform">→</div>
                 </div>
-                <p className="text-base text-text-mid font-300">{location.description}</p>
+                <p className="text-base text-text-mid font-300">{item.description}</p>
               </Link>
             ))}
           </div>
