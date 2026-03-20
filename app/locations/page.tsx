@@ -13,8 +13,26 @@ export default function LocationsPage() {
     {
       region: 'United States',
       href: '/locations/usa',
-      description: 'All states and service areas',
-      subtext: 'Virginia and expanding',
+      description: '12 cities across the US with dedicated legal VA support',
+      subtext: 'Nationwide coverage',
+    },
+    {
+      region: 'United Kingdom',
+      href: '/locations/uk',
+      description: 'SRA-compliant VA support for UK solicitors and barristers',
+      subtext: '5 cities including London and Edinburgh',
+    },
+    {
+      region: 'Middle East',
+      href: '/locations/middle-east',
+      description: 'DIFC and jurisdiction-specific legal VA support',
+      subtext: 'Dubai, Abu Dhabi, Riyadh, Doha',
+    },
+    {
+      region: 'Asia Pacific',
+      href: '/locations/apac',
+      description: 'Law Society-compliant VA support for APAC firms',
+      subtext: 'Sydney, Melbourne, Auckland, and more',
     },
   ];
 
@@ -22,13 +40,13 @@ export default function LocationsPage() {
     <main className="bg-ivory min-h-screen">
       <PageHeader
         label="Service Locations"
-        title="Legal VA Services by Location"
-        subtitle="Find specialized virtual assistant support for your local market. Market-specific experience. Local billing rate understanding. Regional expertise."
+        title="Legal VA Services Worldwide"
+        subtitle="Find specialized virtual assistant support for your local market. Market-specific expertise. Local billing rate understanding. Regional compliance."
       />
 
       <article className="max-w-5xl mx-auto px-16 py-20">
         <p className="text-lg text-text-mid font-300 mb-16 border-l-4 border-brass pl-8 pb-8 border-b border-brass/20">
-          Each legal market has different pain points, billing rates, and practice area opportunities. We understand Virginia's markets intimately—from Richmond's competitive general practice to Arlington's premium corporate work to Virginia Beach's military and immigration focus.
+          Each legal market has different pain points, billing rates, regulatory frameworks, and practice area opportunities. We understand local legal markets intimately—from US market dynamics to UK SRA compliance to Middle East jurisdiction requirements to APAC Law Society standards. Your VA is trained on your market's specifics.
         </p>
 
         <section className="mb-16">
