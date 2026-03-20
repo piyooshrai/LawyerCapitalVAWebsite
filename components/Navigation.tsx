@@ -5,7 +5,6 @@ import { useState, useEffect } from 'react';
 
 export default function Navigation() {
   const [scrolled, setScrolled] = useState(false);
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
