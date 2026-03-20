@@ -4,14 +4,12 @@ interface PageHeaderProps {
   title: string;
   subtitle?: string;
   label?: string;
-  accentColor?: string;
 }
 
 export default function PageHeader({
   title,
   subtitle,
   label = 'Practice Support',
-  accentColor = 'brass'
 }: PageHeaderProps) {
   return (
     <>
