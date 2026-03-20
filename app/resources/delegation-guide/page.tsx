@@ -103,15 +103,12 @@ export default function DelegationGuidePage() {
             </p>
 
             {/* Email Capture Form */}
-            <form className="max-w-md" onSubmit={(e) => {
-              e.preventDefault();
-              // Form handler would go here
-              alert('Check your email for the download link');
-            }}>
+            <form action="/api/email-signup" method="POST" className="max-w-md">
               <div className="mb-4">
                 <label className="block text-sm font-600 text-charcoal mb-2">Email Address</label>
                 <input
                   type="email"
+                  name="email"
                   placeholder="your@firm.com"
                   className="w-full px-4 py-3 border border-brass/20 rounded-sm focus:outline-none focus:border-brass bg-white"
                   required
@@ -121,6 +118,7 @@ export default function DelegationGuidePage() {
                 <label className="block text-sm font-600 text-charcoal mb-2">Firm Name</label>
                 <input
                   type="text"
+                  name="firmName"
                   placeholder="Your Firm Name"
                   className="w-full px-4 py-3 border border-brass/20 rounded-sm focus:outline-none focus:border-brass bg-white"
                   required
