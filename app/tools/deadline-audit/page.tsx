@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Deadline Audit Tool | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function DeadlineAuditPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Assessment Tools"
+        title="Deadline Audit"
+        subtitle="One missed deadline costs $2,500-25,000. Is your system spreadsheets, Outlook, or actual automation?"
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Deadline Audit: Where Are Your Vulnerabilities?

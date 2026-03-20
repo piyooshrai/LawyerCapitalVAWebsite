@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Real Estate Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function RealEstateLawPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Real Estate Support"
+        title="67 Emails Before Noon = 3 Hours of Legal Work"
+        subtitle="12 live transactions. 67 emails by 5pm. Your VA triages them, you handle what matters. That's how to bill 40 hours a week in real estate."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Real Estate: Context Switching Kills Your Profit Margin

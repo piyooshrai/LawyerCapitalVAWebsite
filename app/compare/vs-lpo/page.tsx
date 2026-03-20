@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'VA vs Legal Process Outsourcing | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function VsLPOPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Comparison"
+        title="VA vs LPO: Why Offshore Doesn't Work for Your Clients"
+        subtitle="LPO: 6-12 hour time zone delay, 15-30% rework rate, generic work. Your VA: same time zone, <5% rework, specialized for your practice."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           VA vs LPO: Why Offshore Outsourcing Fails for Your Clients

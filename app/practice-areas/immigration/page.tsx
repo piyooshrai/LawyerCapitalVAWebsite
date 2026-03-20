@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Immigration Law Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function ImmigrationPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Immigration Law Support"
+        title="One Missed Deadline = Case Denial"
+        subtitle="Your client's visa application sits in a queue. One day after the RFE deadline passes, the application is automatically denied. Your VA manages the timeline."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Immigration Law: One Missed Deadline = Case Denial

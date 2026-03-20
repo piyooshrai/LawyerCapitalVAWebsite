@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'VA vs Legal Software | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function VsSoftwarePage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Comparison"
+        title="VA vs Software: Software Has No Judgment"
+        subtitle="Software: $500-1,500/month + 20-40 hours setup + training. 30-50% usage rate. No context. No flexibility. Your VA: all-in, immediate, smart."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           VA vs Software: Automation Cannot Replace Judgment

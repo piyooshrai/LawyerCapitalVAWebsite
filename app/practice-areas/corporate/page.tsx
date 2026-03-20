@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Corporate Law Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function CorporateLawPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Corporate Law Support"
+        title="M&A Closing Slips 4 Months When There's No Coordinator"
+        subtitle="82 disclosure schedules, 23 customer consents, 8 parties in 3 time zones. Your VA tracks every deadline, signature, and exception."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Corporate Law: 60% of M&A Time is Administrative

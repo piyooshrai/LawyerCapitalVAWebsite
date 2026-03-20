@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'VA vs Freelance Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function VsFreelancePage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Comparison"
+        title="VA vs Freelance: Continuity Wins. Project-by-Project Loses."
+        subtitle="Freelancer: 50-70% miss deadline, 30-50% rework rate, no continuity. Your VA: 99%+ hit rate, <5% rework, dedicated to your practice."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           VA vs Freelance: Inconsistency Will Destroy Your Practice

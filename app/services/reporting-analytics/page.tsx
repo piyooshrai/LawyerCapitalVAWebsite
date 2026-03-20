@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Legal Reporting & Analytics Service | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function ReportingAnalyticsPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Core Services"
+        title="Know Which Cases Are Killing You"
+        subtitle="Monthly metrics on billable hours, realization rates, unbilled time by practice area, and case profitability. Data-driven pricing and staffing."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Reporting & Analytics: Know Your Numbers

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Criminal Defense Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function CriminalDefensePage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Criminal Defense Support"
+        title="126 Hours of Video. 118 Cases. You Can't Review All of It."
+        subtitle="Your VA does. They summarize the video, flag inconsistencies, organize digital evidence. You enter trial prepared."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Criminal Defense: Discovery is Drowning You

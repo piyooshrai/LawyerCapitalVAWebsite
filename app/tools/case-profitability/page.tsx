@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Case Profitability Calculator | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function CaseProfitabilityPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Assessment Tools"
+        title="Case Profitability Calculator"
+        subtitle="Simple estate: $3,500 fee, 15 hours = $233/hr. Complex estate: $3,500 fee, 80 hours = $43/hr. Your pricing is probably wrong."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Case Profitability Calculator: Which Cases Are Actually Profitable?

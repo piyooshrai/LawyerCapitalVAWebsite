@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Legal Document Organization Service | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function DocumentOrganizationPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Core Services"
+        title="Find Any Document in 30 Seconds. Not 2 Hours."
+        subtitle="2,400 document case. Unified database. Consistent naming. Issue tagging. Your VA organizes discovery once. You search forever faster."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Document Organization: Find Evidence in Seconds, Not Days

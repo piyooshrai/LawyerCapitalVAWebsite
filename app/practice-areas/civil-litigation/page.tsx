@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Civil Litigation Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function CivilLitigationPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Civil Litigation Support"
+        title="Evidence Management is Now the Competitive Advantage"
+        subtitle="47 hours of video, 2,400 text messages, 6 body cameras. Your opponent's VA organizes theirs in 30 seconds. Yours takes 2 hours. That's the lawsuit."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Civil Litigation is Now a Battle of Evidence Management

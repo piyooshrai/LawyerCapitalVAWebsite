@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'VA vs Hiring a Paralegal | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function VsParalegalPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Comparison"
+        title="VA vs Paralegal: $91,000-190,000 in Annual Savings"
+        subtitle="Paralegal: $133k-220k/year (salary, benefits, taxes, management time). VA: $30k-42k/year. Same work. One-third the cost. No management."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           VA vs Paralegal: Why Hiring One Person Doesn't Fix Your Problem

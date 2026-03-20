@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Deadline Management for Law Firms | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function DeadlineManagementPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Core Services"
+        title="Master Docket: Deadline Management That Works"
+        subtitle="One forgotten deadline costs $2,500-25,000. Your VA maintains a master docket with automated alerts at 60, 30, 14, and 7 days. Nothing falls through."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Deadline Management: Your Most Expensive Mistake

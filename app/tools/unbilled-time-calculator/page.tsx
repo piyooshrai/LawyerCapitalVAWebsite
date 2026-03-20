@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Unbilled Time Calculator | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function UnbilledTimeCalculatorPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Assessment Tools"
+        title="Unbilled Time Calculator"
+        subtitle="Work 60 hours. Bill 40. That 20 hours of unbilled time = $100k-300k annually in lost revenue."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Unbilled Time Calculator: What Is Your Time Really Costing You?
