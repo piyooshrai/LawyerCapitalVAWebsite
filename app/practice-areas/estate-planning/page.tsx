@@ -16,7 +16,7 @@ export default function EstatePlanningPage() {
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> An estate plan is only valuable if it's actually executed and funded. Too many plans sit in desk drawers because the attorney never fully gathered client information, never organized the client's assets, never coordinated trust funding, and never followed up to ensure beneficiaries were designated correctly. One missing asset category = one asset that passes outside the plan = one client regret.
+          <strong>The real problem:</strong> You draft a comprehensive estate plan. Client signs it. 18 months later, the client dies. Probate begins. You discover: the house was never retitled into the trust. The $400,000 investment account never made it into the trust. The life insurance beneficiary still names the ex-spouse. The old 401k from 1998 is sitting in a custody account nobody remembered. The digital assets (cryptocurrency) are not mentioned in the plan. The estate goes through probate anyway. The trust is useless. The family is fighting. You are liable.
         </p>
 
         {/* THE ESTATE PLANNING EXECUTION CRISIS */}

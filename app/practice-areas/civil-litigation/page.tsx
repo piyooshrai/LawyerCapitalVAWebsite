@@ -16,7 +16,7 @@ export default function CivilLitigationPage() {
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> A single case now involves thousands of hours of video, digital images, email chains, and multimedia documents. Manual review is no longer viable. Your case file isn't won in the courtroom—it's won in the discovery phase, where the attorney with the best-organized evidence wins.
+          <strong>The real problem:</strong> The defendant's door camera caught 47 hours of video. The police have 6 body cameras from the scene. Text messages span 2,400+ exchanges across 8 months. You have a 12-drawer filing cabinet just for this one case. Manual review is physically impossible. Your competitor with organized discovery wins at summary judgment. You lose.
         </p>
 
         {/* THE MULTIMEDIA EVIDENCE PROBLEM */}

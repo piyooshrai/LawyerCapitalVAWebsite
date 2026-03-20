@@ -16,7 +16,7 @@ export default function RealEstateLawPage() {
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> You manage 8-15 concurrent closings. Each has a title company, a lender, an opposing counsel, an inspector, and a client. They all email simultaneously. You're jumping between email, spreadsheets, the closing checklist, bank wire instructions, document updates, and scheduling calls. You bill for time in court. You don't bill for time managing 40-80 emails per transaction managing logistics that any competent person could track.
+          <strong>The real problem:</strong> Monday morning: 12 transactions live. Title company sends preliminary report (3 exceptions need attention). Lender emails new conditions. Opposing counsel submits updated closing statement. Inspector finds water damage. Client asks 4 questions. You are 90 minutes into administrative triage before opening your first case file. Your brain is task-switching between 12 different transaction problems. By noon, you have received 67 emails. By 5pm, you have checked closing dates, tracked title issues, managed conditions, scheduled calls, reviewed documents—and billed 3 hours of actual legal work. That is the real estate practice.
         </p>
 
         {/* THE ADMINISTRATIVE BURDEN CRISIS */}

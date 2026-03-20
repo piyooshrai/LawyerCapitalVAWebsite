@@ -16,7 +16,7 @@ export default function FamilyLawPage() {
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> Family law isn't about legal complexity. It's about emotional labor. Clients call at 11pm in crisis. You spend 10-20 hours per case on client management that you can't bill. Meanwhile, discovery coordination, financial calculations, and parenting plan negotiation are consuming 40-50% of your week.
+          <strong>The real problem:</strong> Your client texts at 11:47pm. Their ex posted something on social media. They are having a crisis. You have already billed 10 hours this week on emotional support you cannot charge for. Child support calculations require 6 hours of financial documentation review. Parenting plan negotiation is stalled because the other parent keeps changing their availability. You are losing $3,000-5,000 per case in unbilled work you cannot avoid without abandoning your clients.
         </p>
 
         {/* THE BURNOUT CRISIS */}
