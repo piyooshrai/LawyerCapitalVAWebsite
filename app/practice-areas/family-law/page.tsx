@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Family Law Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function FamilyLawPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Family Law Support"
+        title="52% of Family Law Attorneys Are Burned Out"
+        subtitle="Emotional labor, financial discovery, and client communication consume 25-40% of your time unbilled. Your VA recovers $200k+ annually."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Family Law: 52% of Attorneys Are Burned Out
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> Family law isn't about legal complexity. It's about emotional labor. Clients call at 11pm in crisis. You spend 10-20 hours per case on client management that you can't bill. Meanwhile, discovery coordination, financial calculations, and parenting plan negotiation are consuming 40-50% of your week.
+          <strong>The real problem:</strong> Your client texts at 11:47pm. Their ex posted something on social media. They are having a crisis. You have already billed 10 hours this week on emotional support you cannot charge for. Child support calculations require 6 hours of financial documentation review. Parenting plan negotiation is stalled because the other parent keeps changing their availability. You are losing $3,000-5,000 per case in unbilled work you cannot avoid without abandoning your clients.
         </p>
 
         {/* THE BURNOUT CRISIS */}

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Intellectual Property Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function IntellectualPropertyPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="IP Law Support"
+        title="The Deadline Was Yesterday. The Patent is Abandoned."
+        subtitle="$18,000 in prosecution work gone. Your VA watches 37 patents. One missed deadline costs more than 10 months of VA support."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           IP Law: One Missed Deadline = Abandoned Protection
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> Patent prosecution requires quarterly deadline management. A single missed office action deadline = application abandoned. A trademark renewal deadline missed by one day = loss of trademark rights. You're managing 20-50 active IP matters, each with multiple upcoming deadlines (office actions, priority deadlines, maintenance filings, foreign filings). One distraction. One forgotten deadline. Your client loses their IP.
+          <strong>The real problem:</strong> You have 37 active patent applications. An office action arrives Monday morning. The deadline is 91 days away. You make a note. Work gets busy. The deadline moves. 87 days pass. You check the docket Thursday. The deadline was yesterday. The application is abandoned. $18,000 in prosecution work is gone. Filing fees are gone. Client trust is gone. You are sued. That single missed deadline cost you more than 10 months of a VA.
         </p>
 
         {/* THE IP DEADLINE CRISIS */}

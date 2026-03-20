@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "name": "Lawyer Capital VA - Legal Virtual Assistant Services",
+  "description": "Find virtual assistant solutions for law firms. Specialized VA services for immigration, family law, civil litigation, corporate, real estate, criminal defense, estate planning, and IP practice areas.",
+  "url": "https://lawyercapitalva.com",
+  "contact": "hello@lawyercapitalva.com",
+  "categories": [
+    "Legal Services",
+    "Virtual Assistant",
+    "Law Firm Administration",
+    "Practice Management"
+  ],
+  "practices": [
+    {
+      "name": "Immigration Law VA",
+      "url": "https://lawyercapitalva.com/practice-areas/immigration",
+      "description": "VA services specialized in USCIS deadline management, RFE preparation, and international coordination"
+    },
+    {
+      "name": "Family Law VA",
+      "url": "https://lawyercapitalva.com/practice-areas/family-law",
+      "description": "VA support for family law practices - unbilled time recovery, discovery management, client communication"
+    },
+    {
+      "name": "Civil Litigation VA",
+      "url": "https://lawyercapitalva.com/practice-areas/civil-litigation",
+      "description": "Discovery management, document organization, multimedia evidence handling, vendor coordination"
+    },
+    {
+      "name": "Corporate M&A VA",
+      "url": "https://lawyercapitalva.com/practice-areas/corporate",
+      "description": "M&A coordination, due diligence management, closing checklist tracking"
+    },
+    {
+      "name": "Real Estate VA",
+      "url": "https://lawyercapitalva.com/practice-areas/real-estate",
+      "description": "Real estate transaction coordination - email management, closing checklist, document tracking"
+    },
+    {
+      "name": "Criminal Defense VA",
+      "url": "https://lawyercapitalva.com/practice-areas/criminal-defense",
+      "description": "Discovery management for high-volume practices, multimedia evidence organization, motion support"
+    },
+    {
+      "name": "Estate Planning VA",
+      "url": "https://lawyercapitalva.com/practice-areas/estate-planning",
+      "description": "Trust funding coordination, beneficiary tracking, asset documentation"
+    },
+    {
+      "name": "IP & Patent VA",
+      "url": "https://lawyercapitalva.com/practice-areas/intellectual-property",
+      "description": "Patent prosecution deadline management, office action tracking, trademark maintenance"
+    }
+  ],
+  "services": [
+    {
+      "name": "Deadline Management",
+      "url": "https://lawyercapitalva.com/services/deadline-management",
+      "description": "Master docket system with automated alerts to prevent missed deadlines"
+    },
+    {
+      "name": "Document Organization",
+      "url": "https://lawyercapitalva.com/services/document-organization",
+      "description": "Unified database with consistent naming conventions and evidence tagging"
+    },
+    {
+      "name": "Client Communication",
+      "url": "https://lawyercapitalva.com/services/client-communication",
+      "description": "Routine inquiry handling, status reports, document coordination"
+    },
+    {
+      "name": "Research & Briefing",
+      "url": "https://lawyercapitalva.com/services/research-briefing",
+      "description": "Case law research, statutory research, authority verification"
+    },
+    {
+      "name": "Intake & Onboarding",
+      "url": "https://lawyercapitalva.com/services/intake-onboarding",
+      "description": "Comprehensive client intake, document organization, file setup"
+    },
+    {
+      "name": "Reporting & Analytics",
+      "url": "https://lawyercapitalva.com/services/reporting-analytics",
+      "description": "Monthly metrics, case profitability analysis, unbilled time tracking"
+    }
+  ],
+  "comparisons": [
+    {
+      "title": "VA vs Paralegal",
+      "url": "https://lawyercapitalva.com/compare/vs-paralegal",
+      "savings": "$91,000-190,000 annually"
+    },
+    {
+      "title": "VA vs LPO",
+      "url": "https://lawyercapitalva.com/compare/vs-lpo",
+      "savings": "$52,000-66,000 per 10 matters"
+    },
+    {
+      "title": "VA vs Software",
+      "url": "https://lawyercapitalva.com/compare/vs-software",
+      "benefit": "Immediate productivity without implementation overhead"
+    },
+    {
+      "title": "VA vs Freelance",
+      "url": "https://lawyercapitalva.com/compare/vs-freelance",
+      "advantage": "99%+ hit rate vs 50-70% freelancer reliability"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Unbilled Time Calculator",
+      "url": "https://lawyercapitalva.com/tools/unbilled-time-calculator",
+      "description": "Calculate annual revenue loss from unbilled time"
+    },
+    {
+      "name": "Practice Area ROI",
+      "url": "https://lawyercapitalva.com/tools/practice-area-roi",
+      "description": "Calculate VA ROI for your specific practice area"
+    },
+    {
+      "name": "VA Readiness Assessment",
+      "url": "https://lawyercapitalva.com/tools/va-readiness",
+      "description": "Evaluate your firm's readiness for VA support"
+    },
+    {
+      "name": "Deadline Audit",
+      "url": "https://lawyercapitalva.com/tools/deadline-audit",
+      "description": "Assess your current deadline management system"
+    },
+    {
+      "name": "Efficiency Assessment",
+      "url": "https://lawyercapitalva.com/tools/efficiency-assessment",
+      "description": "Track time allocation across practice activities"
+    },
+    {
+      "name": "Case Profitability Analysis",
+      "url": "https://lawyercapitalva.com/tools/case-profitability",
+      "description": "Identify which case types are profitable"
+    }
+  ],
+  "blog": {
+    "url": "https://lawyercapitalva.com/blog",
+    "featured_articles": [
+      {
+        "title": "Why VA is Better Than Hiring Staff",
+        "url": "https://lawyercapitalva.com/blog/why-va-better-than-hiring",
+        "summary": "Real cost comparison: paralegal $133k-220k/year vs VA $30k-42k/year"
+      },
+      {
+        "title": "How to Evaluate a Virtual Assistant",
+        "url": "https://lawyercapitalva.com/blog/how-to-evaluate-va",
+        "summary": "6 evaluation criteria: specialization, dedication, time zone, quality, training, references"
+      },
+      {
+        "title": "Immigration RFE Deadline Management",
+        "url": "https://lawyercapitalva.com/blog/immigration-rfe-deadline-management",
+        "summary": "6 RFE practices to prevent missed USCIS deadlines"
+      },
+      {
+        "title": "Civil Litigation Discovery Best Practices",
+        "url": "https://lawyercapitalva.com/blog/civil-litigation-discovery-best-practices",
+        "summary": "Unified database approach for 30-second document retrieval"
+      },
+      {
+        "title": "Criminal Defense Multimedia Discovery",
+        "url": "https://lawyercapitalva.com/blog/criminal-discovery-multimedia",
+        "summary": "Manage 100+ hours of video evidence efficiently"
+      },
+      {
+        "title": "Real Estate Email Management",
+        "url": "https://lawyercapitalva.com/blog/real-estate-email-management",
+        "summary": "Manage 40-80 emails per transaction with triage system"
+      },
+      {
+        "title": "Family Law Unbilled Time Recovery",
+        "url": "https://lawyercapitalva.com/blog/family-law-unbilled-time",
+        "summary": "Recover $200k+ annually through delegation"
+      },
+      {
+        "title": "Corporate M&A Acceleration",
+        "url": "https://lawyercapitalva.com/blog/corporate-mna-acceleration",
+        "summary": "Close M&A deals faster with coordination system"
+      },
+      {
+        "title": "Estate Planning Trust Funding Mistakes",
+        "url": "https://lawyercapitalva.com/blog/estate-planning-trust-funding-mistakes",
+        "summary": "5 common mistakes that cost clients and create liability"
+      },
+      {
+        "title": "IP Patent Prosecution Timeline",
+        "url": "https://lawyercapitalva.com/blog/ip-patent-prosecution-timeline",
+        "summary": "Prevent abandoned patents with deadline management"
+      }
+    ]
+  },
+  "trust_signals": {
+    "attorney_client_privilege": "https://lawyercapitalva.com/confidentiality/attorney-client-privilege",
+    "data_security": "https://lawyercapitalva.com/confidentiality/data-security",
+    "vetting_process": "https://lawyercapitalva.com/confidentiality/vetting-process",
+    "privacy_policy": "https://lawyercapitalva.com/privacy",
+    "terms": "https://lawyercapitalva.com/terms"
+  }
+}

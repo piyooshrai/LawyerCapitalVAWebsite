@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Client Communication Virtual Assistant | Lawyer Capital VA',
@@ -9,7 +10,12 @@ export const metadata: Metadata = {
 
 export default function ClientCommunicationPage() {
   return (
-    <main className="pt-32">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Core Services"
+        title="Clients Want to Hear From You. Let Your VA Do It."
+        subtitle="Status updates, appointment reminders, document requests. Recover 10-19 hours per week in billable time while clients stay informed."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-4 leading-tight">
           Client Communication & Relationship Management

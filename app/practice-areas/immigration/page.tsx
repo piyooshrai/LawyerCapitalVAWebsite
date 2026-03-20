@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Immigration Law Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function ImmigrationPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Immigration Law Support"
+        title="One Missed Deadline = Case Denial"
+        subtitle="Your client's visa application sits in a queue. One day after the RFE deadline passes, the application is automatically denied. Your VA manages the timeline."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Immigration Law: One Missed Deadline = Case Denial
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> USCIS gives you 84-90 days to respond to an RFE. You have 3 months to respond to an office action. Miss a deadline by one day and your client loses their visa. There is no second chance. No appeal. Just denial. And you are responsible.
+          <strong>The real problem:</strong> Your client's visa application sits in a queue. You are the only person who knows the deadline exists. USCIS will not email. Your client will not track it. One day after the 84-90 day RFE deadline passes, the application is automatically denied. No second chance. No appeal. No recovery. Your client loses their job offer, their family immigration plan, everything. And you are sued.
         </p>
 
         <section className="mb-16 py-12 bg-charcoal/5 px-8 rounded-sm border-l-4 border-brass">

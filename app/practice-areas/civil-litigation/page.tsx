@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Civil Litigation Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function CivilLitigationPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Civil Litigation Support"
+        title="Evidence Management is Now the Competitive Advantage"
+        subtitle="47 hours of video, 2,400 text messages, 6 body cameras. Your opponent's VA organizes theirs in 30 seconds. Yours takes 2 hours. That's the lawsuit."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Civil Litigation is Now a Battle of Evidence Management
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> A single case now involves thousands of hours of video, digital images, email chains, and multimedia documents. Manual review is no longer viable. Your case file isn't won in the courtroom—it's won in the discovery phase, where the attorney with the best-organized evidence wins.
+          <strong>The real problem:</strong> The defendant's door camera caught 47 hours of video. The police have 6 body cameras from the scene. Text messages span 2,400+ exchanges across 8 months. You have a 12-drawer filing cabinet just for this one case. Manual review is physically impossible. Your competitor with organized discovery wins at summary judgment. You lose.
         </p>
 
         {/* THE MULTIMEDIA EVIDENCE PROBLEM */}

@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Corporate Law Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function CorporateLawPage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Corporate Law Support"
+        title="M&A Closing Slips 4 Months When There's No Coordinator"
+        subtitle="82 disclosure schedules, 23 customer consents, 8 parties in 3 time zones. Your VA tracks every deadline, signature, and exception."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Corporate Law: 60% of M&A Time is Administrative
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> M&A deals sound glamorous. They're not. Between signing and closing, you're coordinating financial audits, managing seller representations, preparing closing documents, organizing schedules of assets, and chasing signatures from 8 different parties. A deal that should take 6 weeks takes 4 months because you're doing administrative triage while trying to give legal advice.
+          <strong>The real problem:</strong> The purchase agreement is signed. 47 days to closing. You are managing: 3 financial audits (one delayed), 82 disclosure schedules (buyer keeps questioning exceptions), 2 real property schedules (title issues in 4 parcels), equipment inventory (buyer wants recount), customer contracts (consent needed from 23 customers), and signature coordination across 8 parties across 3 time zones. One party missing a signature delays everything 48 hours. You are now 4 months into what should be 6 weeks.
         </p>
 
         {/* THE M&A COORDINATION CRISIS */}

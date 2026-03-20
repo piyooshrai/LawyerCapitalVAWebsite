@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export const metadata: Metadata = {
   title: 'Criminal Defense Virtual Assistant | Lawyer Capital VA',
@@ -9,14 +10,19 @@ export const metadata: Metadata = {
 
 export default function CriminalDefensePage() {
   return (
-    <main className="pt-32 bg-ivory min-h-screen">
+    <main className="bg-ivory min-h-screen">
+      <PageHeader
+        label="Criminal Defense Support"
+        title="126 Hours of Video. 118 Cases. You Can't Review All of It."
+        subtitle="Your VA does. They summarize the video, flag inconsistencies, organize digital evidence. You enter trial prepared."
+      />
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
           Criminal Defense: Discovery is Drowning You
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> A single incident generates 100+ hours of video evidence: body-worn cameras from 5-6 officers, dash cam footage, surveillance video from multiple angles, digital communications across 5 platforms. Your discovery obligation isn't to read documents. It's to watch/organize/analyze hundreds of hours of multimedia. Meanwhile, you're managing 80-150+ cases simultaneously, and each case has its own discovery nightmare.
+          <strong>The real problem:</strong> One arrest. Six officers on scene. That is 6 hours of body camera footage. One dash cam recording from the squad car (another 45 minutes). Surveillance video from the nearby business (3 hours). Text messages between parties (847 messages). Phone records. Social media screenshots. Digital evidence scattered across 5 different platforms. You have 126 hours of video to watch to build a coherent case theory. You have 118 other cases waiting. Your client is incarcerated. You have not reviewed their discovery. That is not a business problem. That is a quality-of-representation crisis.
         </p>
 
         {/* THE DISCOVERY CRISIS */}
