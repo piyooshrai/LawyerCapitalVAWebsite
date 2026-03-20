@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Criminal Defense Virtual Assistant | Lawyer Capital VA',
-  description: 'Discovery management, hearing prep, client communication, and case file organization.',
-  keywords: 'criminal defense virtual assistant, criminal law support services',
+  description: 'Discovery management, case file organization, motion preparation, and trial coordination.',
+  keywords: 'criminal defense virtual assistant, discovery management, criminal case support',
 };
 
 export default function CriminalDefensePage() {
@@ -12,91 +12,174 @@ export default function CriminalDefensePage() {
     <main className="pt-32 bg-ivory min-h-screen">
       <article className="max-w-4xl mx-auto px-16 py-20">
         <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
-          Virtual Assistant Support for Criminal Defense
+          Criminal Defense: Discovery is Drowning You
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          Criminal defense requires intense client relationships, meticulous discovery management, and courtroom readiness. Your VA handles client communication, discovery organization, and hearing preparation so you focus on strategy and your client's freedom.
+          <strong>The real problem:</strong> A single incident generates 100+ hours of video evidence: body-worn cameras from 5-6 officers, dash cam footage, surveillance video from multiple angles, digital communications across 5 platforms. Your discovery obligation isn't to read documents. It's to watch/organize/analyze hundreds of hours of multimedia. Meanwhile, you're managing 80-150+ cases simultaneously, and each case has its own discovery nightmare.
         </p>
 
-        <section className="mb-16 py-12 bg-white px-8 rounded-sm border-l-4 border-brass">
-          <h2 className="font-serif text-3xl text-charcoal mb-6">The Criminal Defense Challenge</h2>
+        {/* THE DISCOVERY CRISIS */}
+        <section className="mb-16 py-12 bg-charcoal/5 px-8 rounded-sm border-l-4 border-brass">
+          <h2 className="font-serif text-3xl text-charcoal mb-6">The Digital Discovery Crisis</h2>
           <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Criminal clients are scared. They need reassurance that their case is being managed. They call frequently. They have questions about the process. They worry about outcomes. Meanwhile, you're managing discovery (police reports, witness statements, evidence), preparing for trial, and coordinating with prosecutors.
+            <strong><a href="https://www.rand.org/pubs/research_reports/RRA2559-1.html" className="text-brass font-500 hover:underline">According to the National Public Defense Workload Study (RAND, 2024-2025)</a>,</strong> discovery work has become increasingly administrative and multimedia-intensive. A single domestic violence incident with 5-6 police officers on scene generates 5-6 hours of body-worn camera footage that must be reviewed and processed. A DUI case now includes dash cam, breath test device data, phone records, toxicology documentation, and pharmacy records.
+          </p>
+          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
+            <strong>The workload disparity is staggering.</strong> Old public defender standards allowed 150 felony cases per public defender at 14 hours per case. New research recommends 7 cases at 286 hours per case—a 20x increase in required time. The standard didn't change because cases got easier. It changed because digital discovery and forensic evidence have exploded the workload.
           </p>
           <p className="text-base text-text-mid leading-relaxed font-300">
-            A criminal defense VA manages client fear while you manage legal strategy.
+            <strong>And private defense attorneys don't have the same efficiency support.</strong> Public defenders have discovery coordinators. You don't. You're managing caseloads of 80-150+ cases while reviewing discovery that should take 2-3 weeks of focused work per case.
           </p>
         </section>
 
+        {/* PAIN POINTS */}
         <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">What Criminal Defense VAs Handle</h2>
+          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">The Real Criminal Defense Pain Points</h2>
 
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Discovery Management</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Prosecution discovery includes police reports, witness statements, evidence logs, and lab results. Your VA tracks what's been provided, flags missing discovery, and requests any outstanding items. They organize all discovery by type (police reports, witness statements, evidence) and create a discovery index for easy reference.
-          </p>
+          <div className="space-y-8">
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">1. Discovery Organization (Body Camera, Dash Cam, Digital Evidence)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                Prosecution delivers discovery on drives, cloud links, or third-party platforms. You have video evidence spanning 50+ hours per case. You have digital communications (texts, emails, social media). You have photos, medical records, pharmacy records, phone metadata. It's organized by the prosecution's filing system, not by relevance. You need to create a searchable, organized discovery database that makes sense to your case strategy.
+              </p>
+            </div>
 
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Evidence Organization & Timeline Development</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Criminal cases turn on evidence. Police reports document arrests and investigations. Witness statements provide testimony. Physical evidence requires careful tracking. Your VA organizes all evidence, creates case timelines showing the sequence of events, and identifies inconsistencies in witness statements or police reports.
-          </p>
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">2. Body-Worn Camera Review (5-6+ Hours Per Incident)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                A single arrest involves 5-6 officers. Each officer's body camera records the same incident from different angles. That's 5-6 separate 30-60 minute videos showing the same 10-minute event. You need to watch all of them, identify inconsistencies in statements, flag officer misconduct, note evidentiary issues. This is 5-10 hours per case minimum.
+              </p>
+            </div>
 
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Witness Interview & Statement Organization</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Witness statements are critical. Your VA coordinates witness interviews, documents statements, and prepares summaries showing key testimony. They identify potential defense witnesses and track their contact information and availability.
-          </p>
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">3. Digital Evidence Management (Phone Records, Messages, Social Media)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                Prosecution provides phone records, text message screenshots, social media printouts, chat logs. You need to verify authenticity. You need to understand timeline. You need to identify what's admissible and what's hearsay. You need to organize digital evidence by date/participant/relevance. This creates 20-40 hours of organizing work per case.
+              </p>
+            </div>
 
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Charge & Sentencing Research</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Criminal charges vary by jurisdiction. Your VA researches applicable charges, penalties, and sentencing guidelines. They prepare a sentencing summary showing potential outcomes (best case, likely case, worst case) to advise the client.
-          </p>
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">4. Caseload Management (80-150+ Concurrent Cases)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                You're not managing one case at a time. You're managing 80-150+ cases simultaneously. Each has a different discovery status, different court dates, different witnesses, different legal issues. You're juggling discovery review, motion drafting, plea negotiation, trial prep, and client management across dozens of files simultaneously.
+              </p>
+            </div>
 
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Arraignment & Hearing Preparation</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Hearings are scheduled. Your VA prepares hearing outlines, organizes supporting documents, and ensures all evidence is ready for presentation. For bail hearings, they prepare a bail recommendation package. For trial, they prepare a trial outline showing opening statement structure, witness order, and exhibit organization.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Plea Negotiation Coordination</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            A plea deal is negotiated. Your VA documents all offer details: reduced charges, sentencing recommendations, conditions. They prepare a plea agreement summary and organize all supporting documentation.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Trial Preparation & Jury Materials</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Trial preparation is intensive. Your VA organizes exhibits, prepares witness outlines, and creates visual aids (timelines, diagram evidence). They prepare jury instructions and verdict forms. They organize trial documents in order of use.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Sentencing Documentation</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            After conviction or plea, sentencing occurs. Your VA prepares sentencing position statements, gathers mitigating evidence (character letters, employment records, education), and prepares a sentencing memorandum advocating for the most favorable outcome.
-          </p>
-
-          <h3 className="font-serif text-xl text-charcoal mb-4 mt-8">Client Communication & Reassurance</h3>
-          <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            Criminal clients need constant reassurance. Your VA answers routine questions, explains the process, provides case updates, and reports hearing outcomes. They reduce your communication load while keeping the client informed and confident in your representation.
-          </p>
-        </section>
-
-        <section className="mb-16">
-          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">Criminal Defense Practice Areas We Support</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {['DUI & Traffic Offenses', 'Drug Offenses', 'Felony Charges', 'White-Collar Crime', 'Domestic Violence', 'Juvenile Crimes', 'Expungement & Appeals', 'Post-Conviction Relief'].map((area) => (
-              <div key={area} className="p-4 border border-text-light/10 bg-white">
-                <p className="font-500 text-charcoal">{area}</p>
-              </div>
-            ))}
+            <div className="border-l-4 border-brass pl-6">
+              <h3 className="font-serif text-xl text-charcoal mb-2">5. Motion Preparation & Case Law Research (30-50 Hours Per Motion)</h3>
+              <p className="text-base text-text-mid leading-relaxed font-300">
+                Every motion requires researching relevant case law, reviewing discovery to support your argument, organizing exhibits and evidence, and preparing responsive briefs in case prosecution replies. Suppression motions require detailed factual development from body camera/dash cam evidence. This is 20-50 hours per motion.
+              </p>
+            </div>
           </div>
         </section>
 
-        <section className="my-16 p-8 bg-charcoal text-white rounded-sm">
-          <h2 className="font-serif text-2xl mb-4">Your Client Deserves Your Full Attention</h2>
-          <p className="text-base text-white/70 leading-relaxed">
-            Criminal defense clients are fighting for their freedom. They deserve a lawyer focused on strategy and advocacy, not administrative details. Your VA handles the details so you can focus on your client.
-          </p>
+        {/* ROI SECTION */}
+        <section className="mb-16 p-10 bg-brass/15 border-2 border-brass rounded-sm">
+          <h2 className="font-serif text-3xl text-charcoal mb-8">The Workload You Cannot Manage Alone</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">80-150</div>
+              <p className="text-sm text-charcoal font-500">concurrent cases</p>
+              <p className="text-xs text-text-mid mt-2">(typical criminal defense caseload)</p>
+            </div>
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">30-50 hrs</div>
+              <p className="text-sm text-charcoal font-500">per case discovery review</p>
+              <p className="text-xs text-text-mid mt-2">(multimedia + digital evidence)</p>
+            </div>
+            <div className="text-center">
+              <div className="font-serif text-5xl text-brass font-600 mb-2">2,400-7,500</div>
+              <p className="text-sm text-charcoal font-500">hours/year unmanaged</p>
+              <p className="text-xs text-text-mid mt-2">(discovery backlog across all cases)</p>
+            </div>
+          </div>
+
+          <div className="bg-white p-6 rounded-sm border-l-4 border-brass">
+            <h3 className="font-600 text-charcoal mb-3">Real Firm Math: Criminal Defense Practice</h3>
+            <p className="text-base text-text-mid leading-relaxed font-300">
+              <strong>Typical practice:</strong> 80-150 cases per year. Average case = 30-50 hours of discovery review, motion work, and case preparation at 2+ hours per case minimum. That's 2,400-7,500 hours/year of work required. But you only have 2,000 billable hours per year. You're underwater before you even start.
+            </p>
+            <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+              <strong>The math doesn't work.</strong> You need 2,400-7,500 hours. You have 2,000 hours. You're choosing which cases don't get adequate discovery review. That's not a business problem. That's a quality-of-representation problem.
+            </p>
+            <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+              <strong>With a criminal defense VA:</strong> Handles discovery organization, video review coordination, digital evidence management, and case file organization. Reduces discovery review time from 30-50 hours to 10-15 hours per case (you focus on analysis, they handle triage). Recovers 1,600-4,000 hours/year of billable capacity.
+            </p>
+            <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
+              <strong>VA cost:</strong> $2,500-3,500/month = $30,000-42,000/year.
+            </p>
+            <p className="font-600 text-charcoal mt-4">
+              <strong>Net gain: Adequate discovery review on all cases + recovery of 1,600-4,000 hours/year.</strong>
+            </p>
+          </div>
         </section>
 
-        <section className="text-center">
+        {/* FAQs */}
+        <section className="mb-16">
+          <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">FAQs: Criminal Defense Practice</h2>
+
+          <div className="space-y-6">
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                How does a VA organize and summarize body-worn camera footage?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Your VA receives body-worn camera footage from all officers on scene. They organize footage chronologically. They watch each video and prepare a timeline summary noting key events, statements, apparent inconsistencies, and notable observations. They flag segments that are important for motion practice. They prepare a synopsis so you can review the distilled information instead of watching 5-6 hours of video.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                Can a VA manage digital evidence and communications?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Yes. Your VA receives phone records, text messages, social media printouts, and chat logs. They organize communications chronologically by participant. They flag relevant exchanges. They identify inconsistencies in statements between parties. They prepare a digital evidence summary showing what was said when, and by whom. This saves 20-30 hours of manual evidence organization per case.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                How does a VA help manage 80-150+ concurrent cases?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Your VA maintains a case management dashboard showing all active cases, their status, discovery completion status, next court date, and outstanding tasks. They track discovery timelines. They alert you to approaching deadlines. They organize case files so you find the information you need instantly. They ensure no case falls through the cracks due to caseload volume.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                Can a VA prepare discovery summaries and motions packets?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                Absolutely. Your VA prepares discovery summaries highlighting key evidence, factual inconsistencies, and evidentiary issues. They organize discovery by relevance and issue. They compile relevant case law for motion arguments. They prepare motion packets with exhibits organized and tabbed. You focus on legal strategy and argument development; they handle document assembly.
+              </p>
+            </details>
+
+            <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
+              <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
+                How much discovery and administrative work is actually required?
+                <span className="group-open:rotate-180 transition-transform">▼</span>
+              </summary>
+              <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
+                National Public Defense standards recommend 286 hours per case for adequate representation—far above the old 14-hour standard. At 80-150 cases/year, you need 22,880-42,900 hours/year. You have 2,000 billable hours/year. A dedicated VA reduces required discovery work from 30-50 hours to 10-15 hours per case, making your caseload manageable while ensuring adequate representation.
+              </p>
+            </details>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="my-16 p-8 bg-charcoal text-white rounded-sm">
+          <h2 className="font-serif text-2xl mb-4">Your Clients Deserve Adequate Discovery Review</h2>
+          <p className="text-base text-white/70 leading-relaxed mb-6 font-300">
+            Criminal defense is about examining government evidence and holding the state to its burden of proof. You can't do that while drowning in discovery organization and multimedia triage. A dedicated criminal defense VA handles discovery organization and evidence synthesis, so you can focus on what matters: identifying weaknesses in the prosecution's case and protecting client rights. Your clients deserve an attorney who has actually reviewed their discovery.
+          </p>
           <Link
             href="/contact"
             className="inline-block px-8 py-3 bg-brass text-white text-xs font-600 tracking-wider uppercase hover:bg-brass-light transition-all duration-300"
