@@ -16,12 +16,8 @@ export default function FamilyLawPage() {
         title="52% of Family Law Attorneys Are Burned Out"
         subtitle="Emotional labor, financial discovery, and client communication consume 25-40% of your time unbilled. Your VA recovers $200k+ annually."
       />
-      <article className="max-w-4xl mx-auto px-16 py-20">
-        <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
-          Family Law: 52% of Attorneys Are Burned Out
-        </h1>
-
-        <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
+      <article className="max-w-5xl mx-auto px-16 py-20">
+        <p className="text-lg text-text-mid font-300 mb-16 border-l-4 border-brass pl-8 pb-8 border-b border-brass/20">
           <strong>The real problem:</strong> Your client texts at 11:47pm. Their ex posted something on social media. They are having a crisis. You have already billed 10 hours this week on emotional support you cannot charge for. Child support calculations require 6 hours of financial documentation review. Parenting plan negotiation is stalled because the other parent keeps changing their availability. You are losing $3,000-5,000 per case in unbilled work you cannot avoid without abandoning your clients.
         </p>
 
