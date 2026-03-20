@@ -59,6 +59,10 @@ export default function Navigation() {
           <Link href="/blog" className="text-sm font-500 text-ivory/80 hover:text-brass transition-colors duration-200">
             Blog
           </Link>
+
+          <Link href="/locations" className="text-sm font-500 text-ivory/80 hover:text-brass transition-colors duration-200">
+            Locations
+          </Link>
         </div>
         <Link
           href="/contact"
