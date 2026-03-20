@@ -16,12 +16,8 @@ export default function ImmigrationPage() {
         title="One Missed Deadline = Case Denial"
         subtitle="Your client's visa application sits in a queue. One day after the RFE deadline passes, the application is automatically denied. Your VA manages the timeline."
       />
-      <article className="max-w-4xl mx-auto px-16 py-20">
-        <h1 className="font-serif text-6xl text-charcoal mb-8 leading-tight">
-          Immigration Law: One Missed Deadline = Case Denial
-        </h1>
-
-        <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
+      <article className="max-w-5xl mx-auto px-16 py-20">
+        <p className="text-lg text-text-mid font-300 mb-16 border-l-4 border-brass pl-8 pb-8 border-b border-brass/20">
           <strong>The real problem:</strong> Your client's visa application sits in a queue. You are the only person who knows the deadline exists. USCIS will not email. Your client will not track it. One day after the 84-90 day RFE deadline passes, the application is automatically denied. No second chance. No appeal. No recovery. Your client loses their job offer, their family immigration plan, everything. And you are sued.
         </p>
 
