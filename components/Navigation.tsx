@@ -1,23 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
 
 export default function Navigation() {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 100);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-100 px-16 h-20 flex items-center justify-between transition-all duration-300 ${
-      scrolled ? 'bg-charcoal shadow-lg' : 'bg-charcoal'
-    }`}>
+    <nav className="fixed top-0 left-0 right-0 z-100 px-16 h-20 flex items-center justify-between bg-charcoal shadow-lg">
       <Link href="/" className="flex items-center gap-3 group">
         <div className="w-12 h-12 border-2 border-brass flex items-center justify-center rounded-sm group-hover:bg-brass/10 transition-colors">
           <span className="font-serif text-xl font-600 text-brass">LC</span>
