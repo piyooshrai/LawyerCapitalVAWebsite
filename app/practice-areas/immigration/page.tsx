@@ -16,24 +16,22 @@ export default function ImmigrationPage() {
         </h1>
 
         <p className="text-lg text-text-mid font-300 mb-12 border-l-4 border-brass pl-6">
-          <strong>The real problem:</strong> USCIS gives you 84-90 days to respond to an RFE. You have 3 months to respond to an office action. Miss a deadline by one day and your client loses their visa. There's no second chance. No appeal. Just denial. And you're responsible.
+          <strong>The real problem:</strong> USCIS gives you 84-90 days to respond to an RFE. You have 3 months to respond to an office action. Miss a deadline by one day and your client loses their visa. There is no second chance. No appeal. Just denial. And you are responsible.
         </p>
 
-        {/* THE DEADLINE CRISIS */}
         <section className="mb-16 py-12 bg-charcoal/5 px-8 rounded-sm border-l-4 border-brass">
           <h2 className="font-serif text-3xl text-charcoal mb-6">The RFE Response Deadline Crisis</h2>
           <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            <strong>35-50% of employment-based cases receive an RFE.</strong> That's a Request for Evidence from USCIS. You have 84-90 days to respond. That sounds like time. It's not.
+            <strong>35-50% of employment-based cases receive an RFE.</strong> That is a Request for Evidence from USCIS. You have 84-90 days to respond. That sounds like time. It is not.
           </p>
           <p className="text-base text-text-mid leading-relaxed font-300 mb-4">
-            You receive the RFE. You need to gather documents from your client. They're slow. You need to contact their employer. The employer is slow. You need international documents from their home country. That takes 3-4 weeks just to arrive. You now have 40 days left to prepare a response that often requires 15-25 hours of work.
+            You receive the RFE. You need to gather documents from your client. They are slow. You need to contact their employer. The employer is slow. You need international documents from their home country. That takes 3-4 weeks just to arrive. You now have 40 days left to prepare a response that often requires 15-25 hours of work.
           </p>
           <p className="text-base text-text-mid leading-relaxed font-300">
-            <strong>And 15-25% of RFE responses still get denied.</strong> Which means the case goes to appeal, requiring another 40+ hours of work. A solo immigration attorney managing 20-30 cases can't handle this math. One missed deadline. One slow client. One international shipping delay. Case denied.
+            <strong>And 15-25% of RFE responses still get denied.</strong> Which means the case goes to appeal, requiring another 40+ hours of work. A solo immigration attorney managing 20-30 cases cannot handle this math. One missed deadline. One slow client. One international shipping delay. Case denied.
           </p>
         </section>
 
-        {/* PAIN POINTS */}
         <section className="mb-16">
           <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">The Real Immigration Law Pain Points</h2>
 
@@ -41,41 +39,40 @@ export default function ImmigrationPage() {
             <div className="border-l-4 border-brass pl-6">
               <h3 className="font-serif text-xl text-charcoal mb-2">1. Deadline Management Across Multiple Agencies (84-90 Days Is the Real Timeline)</h3>
               <p className="text-base text-text-mid leading-relaxed font-300">
-                USCIS doesn't send you a reminder email. Your client doesn't track deadlines. You do. Employment cases involve USCIS, DOL, DOS (consular), and sometimes OPIC. Each has different deadlines. One spreadsheet won't cut it.
+                USCIS does not send you a reminder email. Your client does not track deadlines. You do. Employment cases involve USCIS, DOL, DOS (consular), and sometimes OPIC. Each has different deadlines. One spreadsheet will not cut it.
               </p>
             </div>
 
             <div className="border-l-4 border-brass pl-6">
-              <h3 className="font-serif text-xl text-charcoal mb-2">2. Form Complexity & 30-35% Initial Rejection Rate</h3>
+              <h3 className="font-serif text-xl text-charcoal mb-2">2. Form Complexity and 30-35% Initial Rejection Rate</h3>
               <p className="text-base text-text-mid leading-relaxed font-300">
-                I-485, I-140, I-130, I-751—each has 40+ fields. A single error = rejection = 1-2 weeks wasted. Small firms see 30-35% initial rejection rates on first submissions.
+                I-485, I-140, I-130, I-751 each has 40+ fields. A single error equals rejection equals 1-2 weeks wasted. Small firms see 30-35% initial rejection rates on first submissions.
               </p>
             </div>
 
             <div className="border-l-4 border-brass pl-6">
               <h3 className="font-serif text-xl text-charcoal mb-2">3. RFE Response Preparation (15-25 Hours Per RFE)</h3>
               <p className="text-base text-text-mid leading-relaxed font-300">
-                RFE responses require finding missing documents, explaining employment, verifying income, gathering international documents. At 15-25 hours per RFE, and 35-50% of cases getting RFEs, that's 10-15 RFEs/year you're managing. That's 150-375 hours of RFE work annually.
+                RFE responses require finding missing documents, explaining employment, verifying income, gathering international documents. At 15-25 hours per RFE, and 35-50% of cases getting RFEs, that is 10-15 RFEs per year you are managing. That is 150-375 hours of RFE work annually.
               </p>
             </div>
 
             <div className="border-l-4 border-brass pl-6">
               <h3 className="font-serif text-xl text-charcoal mb-2">4. International Coordination Nightmare</h3>
               <p className="text-base text-text-mid leading-relaxed font-300">
-                You need police certificates from 5 countries. Consular processing requires coordination with embassies. Visa bulletin changes affect priority dates. You're managing multiple time zones, multiple agencies, multiple countries.
+                You need police certificates from 5 countries. Consular processing requires coordination with embassies. Visa bulletin changes affect priority dates. You are managing multiple time zones, multiple agencies, multiple countries.
               </p>
             </div>
 
             <div className="border-l-4 border-brass pl-6">
               <h3 className="font-serif text-xl text-charcoal mb-2">5. Case Status Visibility Is Non-Existent</h3>
               <p className="text-base text-text-mid leading-relaxed font-300">
-                USCIS PAIR portal doesn't always update in real-time. You're checking manually. Your client is checking and emailing you. You don't know if their case is in queue or stuck. Nobody knows.
+                USCIS PAIR portal does not always update in real-time. You are checking manually. Your client is checking and emailing you. You do not know if their case is in queue or stuck. Nobody knows.
               </p>
             </div>
           </div>
         </section>
 
-        {/* ROI SECTION */}
         <section className="mb-16 p-10 bg-brass/15 border-2 border-brass rounded-sm">
           <h2 className="font-serif text-3xl text-charcoal mb-8">The Cost of One Missed Deadline</h2>
 
@@ -100,7 +97,7 @@ export default function ImmigrationPage() {
           <div className="bg-white p-6 rounded-sm border-l-4 border-brass">
             <h3 className="font-600 text-charcoal mb-3">Real Firm Math: Solo Immigration Attorney</h3>
             <p className="text-base text-text-mid leading-relaxed font-300">
-              <strong>Cases handled/year:</strong> 30-50. Average case value: $2,500-8,000. With 2-8% missed deadline rate (industry average for manual tracking) and 30-35% initial rejection rate, you're losing <strong>$195,000-390,000 annually</strong> in rework, rejections, and deadline misses.
+              <strong>Cases handled/year:</strong> 30-50. Average case value: $2,500-8,000. With 2-8% missed deadline rate (industry average for manual tracking) and 30-35% initial rejection rate, you are losing <strong>$195,000-390,000 annually</strong> in rework, rejections, and deadline misses.
             </p>
             <p className="text-base text-text-mid leading-relaxed font-300 mt-3">
               <strong>With an immigration VA:</strong> Automated deadline tracking, form verification before submission, RFE response coordination, client document management. Reduces missed deadline rate to 0-1% and rejection rate to <strong>&lt;5%</strong>.
@@ -114,7 +111,6 @@ export default function ImmigrationPage() {
           </div>
         </section>
 
-        {/* FAQs */}
         <section className="mb-16">
           <h2 className="font-serif text-3xl text-charcoal mb-6 mt-12">FAQs: Immigration Law Practice</h2>
 
@@ -131,7 +127,7 @@ export default function ImmigrationPage() {
 
             <details className="p-6 bg-white border border-text-light/10 rounded-sm group">
               <summary className="cursor-pointer font-600 text-charcoal flex justify-between items-center">
-                Can a VA reduce form rejection rates from 30% to <5%?
+                Can a VA reduce form rejection rates from 30% to 5% or less?
                 <span className="group-open:rotate-180 transition-transform">▼</span>
               </summary>
               <p className="text-base text-text-mid leading-relaxed font-300 mt-4">
@@ -171,11 +167,10 @@ export default function ImmigrationPage() {
           </div>
         </section>
 
-        {/* CTA */}
         <section className="my-16 p-8 bg-charcoal text-white rounded-sm">
-          <h2 className="font-serif text-2xl mb-4">Your Clients' Visas Depend on Deadline Precision</h2>
+          <h2 className="font-serif text-2xl mb-4">Your Clients Visas Depend on Deadline Precision</h2>
           <p className="text-base text-white/70 leading-relaxed mb-6 font-300">
-            One missed deadline. One slow client response. One international shipping delay. And your client loses their visa. A dedicated immigration VA eliminates the deadline chaos, manages RFE responses, and ensures every case stays on track. Your clients get their visas. You don't get sued.
+            One missed deadline. One slow client response. One international shipping delay. And your client loses their visa. A dedicated immigration VA eliminates the deadline chaos, manages RFE responses, and ensures every case stays on track. Your clients get their visas. You do not get sued.
           </p>
           <Link
             href="/contact"
